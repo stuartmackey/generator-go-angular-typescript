@@ -1,0 +1,32 @@
+{
+  "name": "AngularTemplate",
+  "version": "0.0.0",
+  "homepage": "https://github.com/stuartmackey/AngularTemplate",
+  "authors": [
+    "Stuart Mackey <stuart@goreport.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.x",
+    "angular-ui-router": "~0.2.15",
+    "angular-bootstrap": "~0.14.3",
+    "ui-bootstrap": "~0.14.3"
+  },
+  "resolutions": {
+    "angular": "~1.4.x"
+  },
+  "overrides": {
+    "angular": {
+      "dependencies": {
+        "jquery": "~1.11"
+      }
+    }
+  }
+}

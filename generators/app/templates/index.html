@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app" data-framework="typescript">
+<head>
+ <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angular Template</title>
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  <!-- bower:css -->
+  <!-- endinject -->
+
+  <!-- inject:css -->
+  <link rel="stylesheet" href="/dist/assets/css/app.cb9f199d.css">
+  <!-- endinject -->
+
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+</head>
+<body role="document">
+
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+
+        </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="">Link 1</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container contents">
+      <div ui-view></div>
+  </div>
+
+  <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class='footer copyright'></div>
+  </nav>
+
+   <!-- bower:js -->
+  <script src="/bower_components/angular/angular.js"></script>
+  <script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <!-- endinject -->
+
+  <!-- inject:js -->
+  <script src="/dist/scripts/js/app.4b65952d.js"></script>
+  <!-- endinject -->
+
+</body>
+</html>
