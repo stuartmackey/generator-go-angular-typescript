@@ -1,6 +1,6 @@
 {
   "name": "generator-go-angular-typescript",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "homepage": "",
   "author": {
@@ -31,7 +31,10 @@
     "gulp-nsp": "^2.1.0",
     "gulp-coveralls": "^0.1.0"
   },
-  "repository": "stuartmackey/generator-go-angular-typescript",
+  "repository": {
+      "type" : "git",
+      "url" : "https://github.com/stuartmackey/generator-go-angular-typescript"
+  },
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
